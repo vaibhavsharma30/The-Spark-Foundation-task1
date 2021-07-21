@@ -22,7 +22,7 @@ body  ::before{
 
 
 
-h1,
+
 h2,
 h3,
 h4,
@@ -31,7 +31,9 @@ h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-size: 40px;
+  
 }
+
 h1 {
   color: #d4976b;
   text-decoration: none;
@@ -64,7 +66,8 @@ a:hover {
   margin-left:820px;
   top:-100px;
   font-weight: bold;
-  color: rgb(175, 37, 90);
+  
+  color: rgb(37 41 175);
   letter-spacing: 0.06em;
   padding-top: 300px;
 }
