@@ -1,0 +1,100 @@
+.jumbotron {
+  padding-bottom: 48px;
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 654px;
+}
+
+body  ::before{
+  content: "";
+  position: absolute;
+
+  background-size: 100% 100%;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+h1 {
+  color: #d4976b;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+  font-size: 4rem;
+}
+.h--alt {
+  font-weight: 300;
+  margin-top: 0;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 14px;
+}
+a {
+  color: #0e48ad;
+}
+a:focus,
+a:hover {
+  color: #123294;
+}
+.jumbotron.cardHero {
+  border-radius: 0;
+  background: transparent;
+  position: relative;
+  margin-left:820px;
+  top:-100px;
+  color: white;
+  letter-spacing: 0.06em;
+  padding-top: 300px;
+}
+
+
+.jumbotron.cardHero p {
+  font-size: 20px;
+}
+.cardHeroMask {
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.3;
+}
+.center{
+  text-align: center;
+}
+.btn a{
+  margin: 0px 15px;
+  background-color: #0f2463;
+  color: rgb(253, 253, 253);
+  padding: 9px 60px;
+  text-align: center;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 3px;
+  font-size: 10;
+  cursor: pointer;
+}
+
