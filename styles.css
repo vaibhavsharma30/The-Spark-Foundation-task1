@@ -63,7 +63,8 @@ a:hover {
   position: relative;
   margin-left:820px;
   top:-100px;
-  color: white;
+  font-weight: bold;
+  color: rgb(175, 37, 90);
   letter-spacing: 0.06em;
   padding-top: 300px;
 }
